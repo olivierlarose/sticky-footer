@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+  font-family: 'Serif';
+  src: url('../../public/fonts/PPNeueWorld-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Sans';
+  src: url('../../public/fonts/PPNeueMontreal-Regular.ttf');
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -17,13 +28,16 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: black;
+  color: white;
+}
+
+p{
+  font-family: 'Sans';
+}
+
+h1, h2{
+  font-family: 'Serif';
 }
 
 @layer utilities {
