@@ -20,7 +20,7 @@ const Section1 = () => {
 const Section2 = () => {
     return (
         <div className='flex justify-between items-end'>
-            <h1 className='text-[14vw] leading-[0.8]'>Sticky Footer</h1>
+            <h1 className='text-[14vw] leading-[0.8] mt-10'>Sticky Footer</h1>
             <p>©copyright</p>
         </div>
     )
